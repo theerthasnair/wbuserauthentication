@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Javascript Login Form Validation</title>
+
+<script src="js/login.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<style>
+  body {
+    background-image: url('jen-we-Kv3Xk2gfhyU-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+  </style>
+<body>
+  <div id="container">
+    <form action="login" align="center" method="post" id="flogin">
+     
+    <div class="border-box">
+    <br/><br/><br/><h2>SIGN IN</h2>
+    <h5><a href="regist.html">SIGN UP</a></h5>
+    <label for="uname" id="un">USERNAME:</label>
+    <input type="text" name="user" placeholder="Enter Username" id="uname"><br/>
+     <br/><br/>
+    <label for="upass" id="ps">PASSWORD:</label>
+    <input type="password" name="pass" placeholder="Enter Password" id="upass"><br/>
+     <br/><br/>
+</br></br><input type="button" value="Login" id="submit" onClick="validate()"/>
+<a href="regist.html">SIGN UP</a>
+
+</form>
+</div>
+</body>
+</html>
